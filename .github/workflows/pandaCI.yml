@@ -40,6 +40,6 @@ jobs:
         with:
           webhook: https://discordapp.com/api/webhooks/1316956354786885673/TnLUfOQiSbcjinGjEXP44tQwVosbe8HGv_gviHMyIZYWbWlr4rcTYRDpNk24h2DO7pa5
           message: Hiloo
-          username: ithub
-          avatar: https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png
+          username: PCK
+          avatar: https://static.wikia.nocookie.net/phuachukang/images/b/b0/Pck.jpg/revision/latest?cb=20181219154924
           
