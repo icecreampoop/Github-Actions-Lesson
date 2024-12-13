@@ -25,12 +25,12 @@ jobs:
         uses: actions/checkout@v4
         with:
           repository: icecreampoop/Github-Actions-Lesson
-          path: hehe
+          path: hehefolder
           token: ${{ secrets.HEHE_TOKEN }}
 
       - name: List out hidden things
         run: |
           ls
-          cd hehe
+          cd hehefolder
           ls
           cd ..
