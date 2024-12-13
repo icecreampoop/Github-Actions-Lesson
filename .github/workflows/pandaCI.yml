@@ -31,6 +31,6 @@ jobs:
       - name: List out hidden things
         run: |
           ls
-          cd hiddenFolder
+          cd hehe
           ls
           cd ..
