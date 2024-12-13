@@ -34,3 +34,14 @@ jobs:
           cd hehefolder
           ls
           cd ..
+
+      - name: discord-action
+  # You may pin to the exact commit or the version.
+  # uses: sebastianpopp/discord-action@4f2d5417bc61a79593304a62e71cd32427c17790
+        uses: sebastianpopp/discord-action@v2.0
+        with:
+    # Discord webhook URL
+          webhook: https://discordapp.com/api/webhooks/1316956354786885673/TnLUfOQiSbcjinGjEXP44tQwVosbe8HGv_gviHMyIZYWbWlr4rcTYRDpNk24h2DO7pa5
+    # Message to be sent
+          message: This is pck
+          
