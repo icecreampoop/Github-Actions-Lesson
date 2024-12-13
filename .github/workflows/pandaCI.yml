@@ -1,5 +1,5 @@
-name: My Panda CI
-on: 
+name: My Panda CI 
+on:
   push:
     branches: [main]
 
@@ -8,9 +8,29 @@ jobs:
     runs-on: ubuntu-latest
     name: my build
     steps:
-      - name: check out code
+      - name: Check out code
         uses: actions/checkout@v4
       - name: Setup Go
         uses: actions/setup-go@v5.2.0
+        with: 
+          go-version: 1.23.0
+
+      - name: what is go version
+        run: |
+          go version
+          ls
+          go test -cover
+
+      - name: Checkout repo remotely
+        uses: actions/checkout@v4
         with:
-          go-version: 1.17.0
+          repository: icecreampoop/Github-Actions-Lesson
+          path: hehe
+          token: ${{ secrets.HEHE_TOKEN }}
+
+      - name: List out hidden things
+        run: |
+          ls
+          cd hiddenFolder
+          ls
+          cd ..
