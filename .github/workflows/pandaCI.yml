@@ -36,12 +36,10 @@ jobs:
           cd ..
 
       - name: discord-action
-  # You may pin to the exact commit or the version.
-  # uses: sebastianpopp/discord-action@4f2d5417bc61a79593304a62e71cd32427c17790
-        uses: sebastianpopp/discord-action@v2.0
+        uses: discord-actions/message@v2
         with:
-    # Discord webhook URL
           webhook: https://discordapp.com/api/webhooks/1316956354786885673/TnLUfOQiSbcjinGjEXP44tQwVosbe8HGv_gviHMyIZYWbWlr4rcTYRDpNk24h2DO7pa5
-    # Message to be sent
-          message: This is pck
+          message: Hi guys, this is Seb. I am hereby promoting pck to be IC5 effective 2025
+          username: Le Stonk CK
+          avatar: https://media.licdn.com/dms/image/v2/C5603AQHJUmjAUgp4Hw/profile-displayphoto-shrink_200_200/profile-displayphoto-shrink_200_200/0/1517673150770?e=2147483647&v=beta&t=KK4cL6u-eYyLmmoTYm5ApCKvOx_-e6iaTh8Mzz3Kulg
           
