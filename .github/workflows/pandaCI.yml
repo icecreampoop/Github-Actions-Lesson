@@ -9,7 +9,7 @@ jobs:
     name: my build
     steps:
       - name: check out code
-        uses: action/checkout@v4
+        uses: actions/checkout@v4
       - name: Setup Go
         uses: actions/setup-go@v5.2.0
         with:
