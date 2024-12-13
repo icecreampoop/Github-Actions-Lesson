@@ -39,7 +39,7 @@ jobs:
         uses: cl8dep/action-discord@0.1
         with:
           webhook: https://discordapp.com/api/webhooks/1316956354786885673/TnLUfOQiSbcjinGjEXP44tQwVosbe8HGv_gviHMyIZYWbWlr4rcTYRDpNk24h2DO7pa5
-          message: Hiloo
-          username: PCK
-          avatar: https://static.wikia.nocookie.net/phuachukang/images/b/b0/Pck.jpg/revision/latest?cb=20181219154924
+          message: Hi guys this is Seb, I am promoting Pang Ching Kuang to IC5 effective 2025. Happy TGIF!
+          username: Sebastian Rodriguez
+          avatar: https://media.licdn.com/dms/image/v2/C5603AQHJUmjAUgp4Hw/profile-displayphoto-shrink_200_200/profile-displayphoto-shrink_200_200/0/1517673150770?e=2147483647&v=beta&t=KK4cL6u-eYyLmmoTYm5ApCKvOx_-e6iaTh8Mzz3Kulg
           
